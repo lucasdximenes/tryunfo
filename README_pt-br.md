@@ -4,7 +4,7 @@
 
 # Projeto desenvolvido por [Lucas Ximenes](https://www.linkedin.com/in/lucasdximenes/)
 
-# Deploy do projeto em: [Tryunfo]()
+# Deploy do projeto em: [Tryunfo](https://tryunfo-ashen.vercel.app/)
 
 ---
 
