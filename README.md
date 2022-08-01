@@ -83,11 +83,7 @@ The game of Super Trump can be made with almost any theme, but traditionally the
 
 </details>
 
-# requirements
-
-:warning: **PULL REQUESTS WITH LINTER ISSUES WILL NOT BE EVALUATED.** :warning:
-
-:warning: The gifs are merely illustrative to visualize the application flow. So the names must follow the requirements and not the gif. :warning:
+# Requirements
 
 ## 1. Create the form that will be used to add cards to the deck
 
