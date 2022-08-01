@@ -1,0 +1,493 @@
+.c-form {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.c-form__form {
+  align-items: center;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.c-form__card-preview {
+  align-items: center;
+  background-color: #023031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+
+.card {
+  background-color: #036b52;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+  width: 270px;
+}
+
+.card img {
+  height: 200px;
+  width: 250px;
+}
+
+.card-container .card-title {
+  background-color: #023031;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  padding-right: 15px;
+  text-align: end;
+  width: 100%;
+}
+
+.card .card-description {
+  background-color: #023031;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px 15px;
+  width: 250px;
+  word-wrap: break-word;
+}
+
+.attr-container {
+  background-color: white;
+}
+
+.attr-item-container {
+  background-color: #dee1e4;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.attr-text {
+  color: #023031;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.attr-text:after {
+  content: '.............................................';
+}
+
+.attr-value {
+  color: #036b52;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.card-rare-content {
+  background-color: #dee1e4;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.normal {
+  color: #008b6b;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.raro {
+  color: #ee9c22;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.muito {
+  color: #d61010;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.trunfo {
+  align-items: center;
+  background-color: #d61010;
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  left: 200px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  transform: rotate(35deg);
+  width: 50px;
+  z-index: 1;
+}
+
+.trunfo p {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  align-items: center;
+  color: #444955;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.name-input {
+  background-color: white;
+  border: none;
+  border-bottom: 0.125rem solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description-input {
+  background-color: white;
+  border: none;
+  border-bottom: 0.125rem solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 100px;
+  margin-bottom: 10px;
+  resize: none;
+  text-align: center;
+}
+
+.attr-input {
+  background-color: white;
+  border: 1px solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 14px;
+  text-align: center;
+  width: 70%;
+}
+
+.image-input {
+  background-color: white;
+  border: 0.125rem solid #023031;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+  width: 70%;
+}
+
+.rare-input {
+  background-color: white;
+  border: none;
+  border-bottom: 0.125rem solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.trunfo-input {
+  background-color: #eee;
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.save-button {
+  background-color: #003be5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.save-button:hover {
+  background-color: #0025c8;
+}
+
+.save-button:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.form-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.preview-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.saved-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.saved-cards-header {
+  align-items: center;
+  background-color: #036b52;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.start-game-button {
+  background-color: #003be5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 50px;
+  margin: 10px 0;
+  width: 100px;
+}
+
+.start-game-button:hover {
+  background-color: #023031;
+}
+
+.start-game-button:disabled {
+  background-color: #444955;
+  color: #dee1e4;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.filters-container h3 {
+  align-self: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.filter-name-input {
+  background-color: white;
+  border: none;
+  border-bottom: 0.125rem solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.filter-rarity-select {
+  background-color: white;
+  border: none;
+  border-bottom: 0.125rem solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.filters-container label {
+  align-self: center;
+  color: white;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.filter-trunfo-checkbox {
+  background-color: white;
+  border: none;
+  border-bottom: 0.125rem solid #444955;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-limit-container {
+  align-items: center;
+  background-color: #023031;
+  color: #dee1e4;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.saved-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-saved-card-button {
+  background-color: #003be5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 30px;
+  margin: 10px 0;
+  width: 100px;
+}
+
+.delete-saved-card-button:hover {
+  background-color: #023031;
+}
+
+.game-container {
+  align-items: center;
+  background-color: #008b6b;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.game-container h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.control-buttons-game {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-buttons-game p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.next-card {
+  background-color: #003be5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.cancel-game {
+  background-color: #b8330a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.new-game {
+  background-color: #63bd0f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.back-to-start {
+  background-color: #e57a00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+@media ( max-width : 800px ) {
+
+  .c-form {
+    flex-direction: column;
+  }
+
+  .c-form__form {
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .c-form__card-preview {
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+  }
+}
