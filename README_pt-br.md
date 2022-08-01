@@ -6,6 +6,8 @@
 
 # Deploy do projeto em: [Tryunfo](https://tryunfo-ashen.vercel.app/)
 
+![Tryunfo preview](./images/Tryunfo_preview.png)
+
 ---
 
 <details>
