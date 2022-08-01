@@ -128,6 +128,7 @@ class Form extends Component {
               id="image-input"
               className="image-input"
               data-testid="image-input"
+              placeholder="image link"
               value={ cardImage }
               onChange={ onInputChange }
             />
